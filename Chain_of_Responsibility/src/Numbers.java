@@ -1,9 +1,16 @@
+
 public class Numbers {
     private int number1;
     private int number2;
-
     private String calculationWanted;
 
+    /**
+     * Es wird ein Numbers Objekt erstellt, das 2 Integer-Werte
+     * und die gewünschte Berechnungsmethode enthält
+     * @param newNumber1 Erster Integer-Wert
+     * @param newNumber2 Zweiter Integer-Wert
+     * @param calcWanted Methode zur Berechnung
+     */
     public Numbers(int newNumber1, int newNumber2, String calcWanted){
         number1 = newNumber1;
         number2 = newNumber2;

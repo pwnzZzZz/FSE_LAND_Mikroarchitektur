@@ -1,4 +1,4 @@
-public class AddNumbers implements Chain {
+public class SubtractNumbers implements Chain {
     private Chain nextInChain;
 
     /**
@@ -8,7 +8,7 @@ public class AddNumbers implements Chain {
      */
     @Override
     public void setNextChain(Chain nextChain) {
-        this.nextInChain = nextChain;
+        nextInChain = nextChain;
     }
 
     /**
@@ -19,11 +19,10 @@ public class AddNumbers implements Chain {
      */
     @Override
     public void calculate(Numbers request) {
-        if (request.getCalcWanted().equalsIgnoreCase("add")) {
-            System.out.println(request.getNumber1() + " + " + request.getNumber2() + " = " + (request.getNumber1() + request.getNumber2()));
+        if (request.getCalcWanted().equalsIgnoreCase("sub")) {
+            System.out.println(request.getNumber1() + " - " + request.getNumber2() + " = " + (request.getNumber1() - request.getNumber2()));
         } else {
             nextInChain.calculate(request);
         }
     }
-
 }
