@@ -7,10 +7,17 @@ public class StockGrabber implements Subject{
     private double aaplPrice;
     private double googPrice;
 
+    /**
+     * Der Konstruktor erzeugt eine ArrayList, die Observer-Objekte speichert
+     */
     public StockGrabber(){
         observers = new ArrayList<>();
     }
 
+    /**
+     * Das Observer-Objekt wird der ArrayList hinzugefügt
+     * @param newObserver Observer-Objekt
+     */
     @Override
     public void register(Observer newObserver) {
 
@@ -18,6 +25,10 @@ public class StockGrabber implements Subject{
 
     }
 
+    /**
+     * Das Observer-Objekt wird aus der ArrayList entfernt
+     * @param deleteObserver Observer-Objekt
+     */
     @Override
     public void unregister(Observer deleteObserver) {
 
@@ -27,6 +38,10 @@ public class StockGrabber implements Subject{
         observers.remove(observerIndex);
     }
 
+    /**
+     * Iteriert durch die ArrayList und benachrichtigt
+     * alle Observer über Preisänderungen
+     */
     @Override
     public void notifyObserver() {
 
