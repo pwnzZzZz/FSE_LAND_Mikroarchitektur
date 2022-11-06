@@ -1,22 +1,23 @@
 /**
- * By going this route I'll have to create a new subclass
- * for an infinite number of pizza.
- * I'd also have to change prices in many classes
- * when just 1 Pizza topping cost changes
- *
- * Inheritance is static while composition is dynamic
- * Through composition I'll be able to add new functionality
- * by writing new code rather than by changing current code
+ * Der Decorator (Dekorierer) ist ein Entwurfsmuster welches zur Kategorie Strukturmuster zählt.
+ * Das Muster ist eine flexible Alternative zur Unterklassenbildung, um eine Klasse um zusätzliche
+ * Funktionalitäten zu erweitern Der Aufrufer bekommt nicht mit, dass ein Dekorierer vorgeschaltet ist.
  */
 
 public class Main {
     public static void main(String[] args) {
+
+        //Es wird ein neues Pizza-Objekt erstellt und die Preise und Zutateten
+        //werden über den super-Aufruf  an den Decorator weitergegeben
         Pizza pizza1 = new Mozzarella(new TomatoSauce(new PlainPizza()));
 
         System.out.println("Ingredients: " + pizza1.getDescription());
         System.out.println("Price: " + pizza1.getCost());
 
-        Pizza pizza2 = new TomatoSauce(new Mozzarella(new Salami(new PlainPizza())));
+
+        //Es wird ein neues Pizza-Objekt erstellt und die Preise und Zutateten
+        //werden über den super-Aufruf an den Decorator weitergegeben
+        Pizza pizza2 = new Salami(new Mozzarella(new TomatoSauce(new PlainPizza())));
 
         System.out.println("Ingredients: " + pizza2.getDescription());
         System.out.println("Price: " + pizza2.getCost());

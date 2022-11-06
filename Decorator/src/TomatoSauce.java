@@ -10,7 +10,7 @@ public class TomatoSauce extends ToppingDecorator{
     }
 
     public double getCost(){
-        return super.getCost() + 0.35;
+        return super.getCost() + 0.40;
     }
 
 }
