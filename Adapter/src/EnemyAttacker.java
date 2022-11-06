@@ -1,3 +1,6 @@
+/**
+ * Interface für alle EnemyAttacker
+ */
 public interface EnemyAttacker {
 
     public void fireWeapon();
