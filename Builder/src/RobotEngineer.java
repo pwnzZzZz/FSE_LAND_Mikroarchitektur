@@ -2,15 +2,14 @@ public class RobotEngineer {
 
     private RobotBuilder robotBuilder;
 
-    public RobotEngineer(RobotBuilder robotBuilder){
+    public RobotEngineer(RobotBuilder robotBuilder) {
         this.robotBuilder = robotBuilder;
     }
 
     /**
-     *
      * @return Robot-Objekt des aktuellen RobotBuilders
      */
-    public Robot getRobot(){
+    public Robot getRobot() {
         return this.robotBuilder.getRobot();
     }
 
@@ -18,7 +17,7 @@ public class RobotEngineer {
      * Es wird über den RobotBuilder ein neuer
      * Roboter zusammengebaut
      */
-    public void makeRobot(){
+    public void makeRobot() {
         this.robotBuilder.buildRobotHead();
         this.robotBuilder.buildRobotTorso();
         this.robotBuilder.buildRobotArms();

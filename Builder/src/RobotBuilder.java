@@ -1,5 +1,7 @@
+/**
+ * Vorlage für alle RobotBuilder
+ */
 public interface RobotBuilder {
-
     public void buildRobotHead();
     public void buildRobotTorso();
     public void buildRobotArms();

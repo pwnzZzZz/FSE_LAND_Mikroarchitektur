@@ -3,7 +3,7 @@
  * RobotPlan Interface
  */
 
-public class Robot implements RobotPlan{
+public class Robot implements RobotPlan {
 
     private String robotHead;
     private String robotTorso;
