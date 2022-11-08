@@ -1,4 +1,4 @@
-public class Decorator extends WR{
+public abstract class Decorator extends WR{
     private WR wr;
 
 

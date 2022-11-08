@@ -11,7 +11,7 @@ public abstract class WR implements IUmrechnen{
             return 0.0;
         }
     }
-
+    public abstract void setFaktor(double faktor);
     public abstract double getFaktor();
 
     public abstract boolean zustaendig(String variante);

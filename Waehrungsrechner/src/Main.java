@@ -13,5 +13,8 @@ public class Main {
 
         System.out.println(dr2.umrechnen("yen", 20));
 
+
+        WR wr2 = new EURO2Dollar.Builder().setFaktor(15).setWR(wrYen).build();
+        System.out.println(wr2.umrechnen("yen", 100.0));
     }
 }

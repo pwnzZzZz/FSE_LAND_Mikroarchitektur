@@ -4,6 +4,11 @@ public class EUR2YEN extends WR{
 
 
     @Override
+    public void setFaktor(double faktor) {
+        this.faktor = faktor;
+    }
+
+    @Override
     public double getFaktor() {
         return faktor;
     }
@@ -16,4 +21,7 @@ public class EUR2YEN extends WR{
             return false;
         }
     }
+
+
+
 }

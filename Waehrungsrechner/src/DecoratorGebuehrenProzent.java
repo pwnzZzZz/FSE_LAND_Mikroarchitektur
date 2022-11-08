@@ -7,5 +7,10 @@ public class DecoratorGebuehrenProzent extends Decorator{
         return ((super.umrechnen(variante, betrag) * 0.5)/100) + super.umrechnen(variante, betrag);
     }
 
+    @Override
+    public void setFaktor(double faktor) {
+        this.setFaktor(faktor);
+    }
+
 
 }
