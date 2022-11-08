@@ -28,5 +28,10 @@ public class Main {
         wrYen.registerObserver(o1);
         System.out.println(wrYen.umrechnen("yen", 10));
 
+        Observer o2 = new AtomObserver(wrYen);
+        wrYen.registerObserver(o2);
+        System.out.println(wrYen.umrechnen("yen", 15));
+
+
     }
 }

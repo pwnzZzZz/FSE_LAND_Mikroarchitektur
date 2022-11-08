@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac9ad36b-fa31-47c7-a7f0-f347e9e29b21" name="Changes" comment="Commit Test Laptop">
-      <change afterPath="$PROJECT_DIR$/Waehrungsrechner/src/LogObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Waehrungsrechner/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Waehrungsrechner/src/main/java/AtomObserver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Waehrungsrechner/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Waehrungsrechner/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Waehrungsrechner/src/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Waehrungsrechner/src/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Waehrungsrechner/src/WR.java" beforeDir="false" afterPath="$PROJECT_DIR$/Waehrungsrechner/src/WR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Waehrungsrechner/src/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Waehrungsrechner/src/main/java/Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Waehrungsrechner/src/Decorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Waehrungsrechner/src/main/java/Decorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Waehrungsrechner/src/DecoratorGebuehrenFix.java" beforeDir="false" afterPath="$PROJECT_DIR$/Waehrungsrechner/src/main/java/DecoratorGebuehrenFix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Waehrungsrechner/src/DecoratorGebuehrenProzent.java" beforeDir="false" afterPath="$PROJECT_DIR$/Waehrungsrechner/src/main/java/DecoratorGebuehrenProzent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Waehrungsrechner/src/EUR2YEN.java" beforeDir="false" afterPath="$PROJECT_DIR$/Waehrungsrechner/src/main/java/EUR2YEN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Waehrungsrechner/src/EURO2Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Waehrungsrechner/src/main/java/EURO2Dollar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Waehrungsrechner/src/ISammelumrechnung.java" beforeDir="false" afterPath="$PROJECT_DIR$/Waehrungsrechner/src/main/java/ISammelumrechnung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Waehrungsrechner/src/IUmrechnen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Waehrungsrechner/src/main/java/IUmrechnen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Waehrungsrechner/src/LogObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Waehrungsrechner/src/main/java/LogObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Waehrungsrechner/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Waehrungsrechner/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Waehrungsrechner/src/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Waehrungsrechner/src/main/java/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Waehrungsrechner/src/WR.java" beforeDir="false" afterPath="$PROJECT_DIR$/Waehrungsrechner/src/main/java/WR.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

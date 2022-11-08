@@ -64,8 +64,8 @@ public abstract class WR implements IUmrechnen {
     @Override
     public String toString() {
         return "Ausgangsbetrag: " + ausgangsBetrag +
-                "\nAusganswährung: " + ausgansWaehrung  +
-                "\nZielwährung: " + zielWaehrung +
+                "\nAusganswaehrung: " + ausgansWaehrung  +
+                "\nZielwaehrung: " + zielWaehrung +
                 "\nZielbetrag: " + zielBetrag;
     }
 
