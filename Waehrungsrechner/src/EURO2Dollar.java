@@ -1,6 +1,7 @@
-public class EURO2Dollar extends WR{
-    double faktor = 1.10;
-    String var = "dollar";
+public class EURO2Dollar extends WR {
+    private double faktor = 1.10;
+    private String var = "dollar";
+
     @Override
     public double getFaktor() {
         return faktor;
@@ -8,9 +9,9 @@ public class EURO2Dollar extends WR{
 
     @Override
     public boolean zustaendig(String variante) {
-        if(variante.equalsIgnoreCase(var)){
+        if (variante.equalsIgnoreCase(var)) {
             return true;
-        }else{
+        } else {
             return false;
         }
 

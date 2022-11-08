@@ -1,6 +1,6 @@
 public class EUR2YEN extends WR{
-    double faktor = 146.30;
-    String var = "yen";
+    private double faktor = 146.30;
+    private String var = "yen";
 
 
     @Override
