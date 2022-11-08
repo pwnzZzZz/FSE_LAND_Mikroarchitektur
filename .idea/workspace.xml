@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac9ad36b-fa31-47c7-a7f0-f347e9e29b21" name="Changes" comment="Commit Test Laptop" />
+    <list default="true" id="ac9ad36b-fa31-47c7-a7f0-f347e9e29b21" name="Changes" comment="Commit Test Laptop">
+      <change afterPath="$PROJECT_DIR$/Waehrungsrechner/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,14 +22,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Marcel/OneDrive - HTL Imst/IT-Kolleg_/FSE - Landerer/3. Semester/FSE_Landerer22-23_MS"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Marcel/OneDrive - HTL Imst/IT-Kolleg_/FSE - Landerer/3. Semester/FSE_Landerer22-23_MS&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -36,6 +39,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667640732913</updated>
       <workItem from="1667640738938" duration="121000" />
+      <workItem from="1667900843770" duration="935000" />
     </task>
     <task id="LOCAL-00001" summary="Commit Test Laptop">
       <created>1667640827935</created>
