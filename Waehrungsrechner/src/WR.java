@@ -1,7 +1,6 @@
 import java.util.ArrayList;
-import java.util.Observable;
 
-public abstract class WR extends Observable implements IUmrechnen {
+public abstract class WR implements IUmrechnen {
     private WR next;
     private ArrayList<Observer> observers = new ArrayList<>();
     private double ausgangsBetrag;
@@ -29,6 +28,7 @@ public abstract class WR extends Observable implements IUmrechnen {
             setZielWaehrung(variante);
             setAusgangsBetrag(betrag);
             setZielBetrag(getFaktor()*betrag);
+            notifyAllObservers();
             return getFaktor()*betrag;
         }else if(this.next != null){
             return next.umrechnen(variante, betrag);
@@ -45,6 +45,20 @@ public abstract class WR extends Observable implements IUmrechnen {
 
     public void setNext(WR next){
         this.next = next;
+    }
+
+    public void registerObserver(Observer o){
+        this.observers.add(o);
+    }
+
+    public void unregisterObserver(Observer o){
+        this.observers.remove(o);
+    }
+
+    public void notifyAllObservers(){
+        for(Observer o : observers){
+            o.update();
+        }
     }
 
     @Override

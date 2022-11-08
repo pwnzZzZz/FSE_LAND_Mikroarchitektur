@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac9ad36b-fa31-47c7-a7f0-f347e9e29b21" name="Changes" comment="Commit Test Laptop">
-      <change afterPath="$PROJECT_DIR$/Waehrungsrechner/src/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Waehrungsrechner/out/production/Waehrungsrechner/WR.class" beforeDir="false" afterPath="$PROJECT_DIR$/Waehrungsrechner/out/production/Waehrungsrechner/WR.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Waehrungsrechner/src/EUR2YEN.java" beforeDir="false" afterPath="$PROJECT_DIR$/Waehrungsrechner/src/EUR2YEN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Waehrungsrechner/src/EURO2Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Waehrungsrechner/src/EURO2Dollar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Waehrungsrechner/src/LogObserver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Waehrungsrechner/src/WR.java" beforeDir="false" afterPath="$PROJECT_DIR$/Waehrungsrechner/src/WR.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
