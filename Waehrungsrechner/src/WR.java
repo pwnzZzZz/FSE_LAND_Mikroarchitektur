@@ -4,8 +4,11 @@ public abstract class WR implements IUmrechnen{
     public double umrechnen(String variante, double betrag){
         if(zustaendig(variante)){
             return getFaktor()*betrag;
-        }else{
+        }else if(this.next != null){
             return next.umrechnen(variante, betrag);
+        }else{
+            System.out.println("Es wurde kein passender WR gefunen!");
+            return 0.0;
         }
     }
 
