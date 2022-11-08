@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac9ad36b-fa31-47c7-a7f0-f347e9e29b21" name="Changes" comment="Commit Test Laptop">
-      <change afterPath="$PROJECT_DIR$/Waehrungsrechner/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Waehrungsrechner/src/EUR2YEN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Waehrungsrechner/src/EURO2Dollar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Waehrungsrechner/src/WR.java" beforeDir="false" afterPath="$PROJECT_DIR$/Waehrungsrechner/src/WR.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +42,7 @@
       <updated>1667640732913</updated>
       <workItem from="1667640738938" duration="121000" />
       <workItem from="1667900843770" duration="935000" />
+      <workItem from="1667903996780" duration="988000" />
     </task>
     <task id="LOCAL-00001" summary="Commit Test Laptop">
       <created>1667640827935</created>
