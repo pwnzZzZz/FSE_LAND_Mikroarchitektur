@@ -1,6 +1,6 @@
 public class EURO2Dollar extends WR {
     private double faktor = 1.10;
-    private String var = "dollar";
+    private String var = "Dollar";
 
     @Override
     public double getFaktor() {
