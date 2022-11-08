@@ -16,5 +16,12 @@ public class Main {
 
         WR wr2 = new EURO2Dollar.Builder().setFaktor(15).setWR(wrYen).build();
         System.out.println(wr2.umrechnen("yen", 100.0));
+
+        double[] betraege = {10.0, 15.0, 13.0, 14.0, 33.0, 21.0};
+
+        Adapter ad1 = new Adapter(wrYen);
+
+
+        System.out.println(ad1.sammelumrechnen(betraege, "dollar"));
     }
 }
