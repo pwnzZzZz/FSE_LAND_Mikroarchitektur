@@ -6,4 +6,8 @@ public abstract class Observer {
     }
 
     public abstract void update();
+
+    public String getString(){
+        return wr.toString();
+    }
 }

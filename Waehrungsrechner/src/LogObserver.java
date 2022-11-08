@@ -26,7 +26,7 @@ public class LogObserver extends Observer{
 
     @Override
     public void update() {
-        this.logger.info()
+        this.logger.info(this.getString());
     }
 
 

@@ -23,5 +23,10 @@ public class Main {
 
 
         System.out.println(ad1.sammelumrechnen(betraege, "dollar"));
+
+        Observer o1 = new LogObserver(wrYen);
+        wrYen.registerObserver(o1);
+        System.out.println(wrYen.umrechnen("yen", 10));
+
     }
 }
